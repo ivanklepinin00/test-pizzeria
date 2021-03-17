@@ -14,7 +14,6 @@ export const Statistics = ({ orders }) => {
     }
   });
   const { popular, ingridients } = getPizzaInfo(newArr);
-  console.log(popular, ingridients);
 
   return (
     <>
